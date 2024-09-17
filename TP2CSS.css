@@ -1,7 +1,10 @@
 div {
 	text-align:center;
+    display: flex;
+    align-items: center;
+  justify-content: center;
 	}
-    
+
 div#divHead {
 	width: 100%;
 	height: 100px;
@@ -10,7 +13,8 @@ div#divHead {
 	}
 
 div#divCorps {
-	width: 100%;
+    float: left;
+	width: 80%;
 	height: 735px;
 	background-color:#FFCC00;
     font-weight: bold;
@@ -20,5 +24,13 @@ div#divFooter {
 	width: 100%;
 	height: 100px;
 	background-color:#33FF99;
-	}
     font-weight: bold;
+	}
+
+div#divMenu {
+    float:left;
+    width: 20%;
+    height: 735px;
+    background-color:#FF6699;
+    font-weight: bold;
+    }
