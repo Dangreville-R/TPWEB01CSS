@@ -13,8 +13,8 @@ div#divHead {
 	}
 
 div#divCorps {
-    float: left;
-	width: 90%;
+    float: right;
+	width: 80%;
 	height: 735px;
 	background-color:#FFCC00;
     font-weight: bold;
@@ -29,8 +29,24 @@ div#divFooter {
 
 div#divMenu {
     float:left;
-    width: 10%;
-    height: 735px;
-    background-color:#FF6699;
+    width: 20%;
+    height: 367.5px;
+    background-color:#35ca30;
+    font-weight: bold;
+    }
+
+div#divMenuBas {
+    float:left;
+    width: 20%;
+    height: 367.5px;
+    background-color:#cf46c4;
+    font-weight: bold;
+    }
+
+div#divNews {
+    float: right;
+    width:150px;
+    height:150px;
+    background-color:#FF3300;
     font-weight: bold;
     }
