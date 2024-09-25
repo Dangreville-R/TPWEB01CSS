@@ -1,18 +1,17 @@
 div {
-	text-align:center;
     display: flex;
-    align-items: center;
-  justify-content: center;
 	}
 
-div#divHead {
+#divHead {
 	width: 100%;
 	height: 100px;
 	background-color:#00CCFF;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
 	}
 
-div#divCorps {
+#divCorps {
     float: right;
 	width: 80%;
 	height: 735px;
@@ -20,33 +19,55 @@ div#divCorps {
     font-weight: bold;
 	}
 
-div#divFooter {
+#divFooter {
 	width: 100%;
 	height: 100px;
 	background-color:#33FF99;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
 	}
 
-div#divMenu {
+#divMenu {
     float:left;
     width: 20%;
     height: 367.5px;
     background-color:#35ca30;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
     }
 
-div#divMenuBas {
+#divMenuBas {
     float:left;
     width: 20%;
     height: 367.5px;
     background-color:#cf46c4;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
     }
 
 div#divNews {
     float: right;
-    width:150px;
+    width:300px;
     height:150px;
     background-color:#FF3300;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    grid-row: inherit;
+      
     }
+
+.text {
+    color: blue;
+    font-size: 20px;
+}
+
+/***div {
+	text-align:center;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+	}***/
