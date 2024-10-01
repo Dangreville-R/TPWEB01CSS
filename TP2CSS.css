@@ -68,6 +68,31 @@ div#divNews {
     color: red;
     font-size: 30px;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.vert {
+    color: green;
+    font-size: 15px;
+}
+
+.bleu {
+    color: blue;
+    font-size: 15px;
+}
+
+.phraseUn {
+    color: red;
+}
+
 /***div {
 	text-align:center;
     display: flex;
